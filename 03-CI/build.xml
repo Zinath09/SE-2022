@@ -1,33 +1,40 @@
-﻿<project name="Grain-Bank" default="compile">
+<project name="Grain-Bank" default="compile">
+
 	<path id="jetty.cp">
- 	 	<fileset dir="C:\Users\zuzab\OneDrive\Pulpit\sem4\SE\CI\Ant\Jetty"/>
+ 	 	<fileset dir="../Jetty"/>
   	</path>
+
 	<path id="lib.cp">
-  		<fileset dir="C:\Users\zuzab\OneDrive\Pulpit\sem4\SE\CI\Ant\grain-bank\lib"/>
- 	 	<path refid="jetty.cp"/>
+		<pathelement location="lib/servlet-api-2.5.jar"/>
+            <pathelement location="lib/freemarker.jar"/>
+            <path refid="jetty.cp"/>	
 	</path>
+
 	<path id="dist.cp">
-  		<pathelement location="$basedir.dist.bank.jar"/>
+  		<pathelement location="bank.jar"/>
  	 	<path refid="lib.cp"/>
 	</path>
+
 	<target name="init">
 		<mkdir dir="bin"/>
 		<mkdir dir="dist"/>
 		<echo message= "--init--Added bin and dist"/>
 	</target>
+
 	<target name="compile" depends="init">
 		<echo message="Compile ${ant.project.name} project." />
 		<javac srcdir="src" destdir="bin" includeantruntime="false" classpathref="lib.cp" />
 	</target>
+
 	<target name="copy" depends="init">
-	<copy todir="dist">
-  		<fileset dir="res"/>
-	</copy>
+		<copy todir="bin">
+  			<fileset dir="res"/>
+		</copy>
 	</target>
-	<target name="dist" depends="compile,copy,init">
-		<echo message="Prepare the jar for distribution of ${ant.project.name} project." />
-		<jar destfile="bank.jar">
-  		  <fileset dir="C:\Users\zuzab\OneDrive\Pulpit\sem4\SE\CI\Ant\grain-bank\bin"/>
+
+	<target name="dist" depends="compile,copy, init">
+		<jar destfile="dist/bank.jar">
+  		  <fileset dir="bin"/>
 		</jar>
 	</target>
 	<target name="clean">
