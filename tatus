@@ -1,0 +1,89 @@
+[33mcommit d925a926f2af640fa29d92eabe8e083baa7dd5c5[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Zinath09 <zuzabu@o2.pl>
+Date:   Thu Mar 24 16:43:59 2022 +0100
+
+    Change task.1
+
+[33mcommit 7c182ff2ce40a7e1920fdc6b42a68e63aed58068[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Zinath09 <75094119+Zinath09@users.noreply.github.com>
+Date:   Wed Mar 23 12:58:50 2022 +0100
+
+    Add files via upload
+
+[33mcommit 034c0a349b84e312200089a45308e0f5d552ccd6[m
+Author: Zinath09 <75094119+Zinath09@users.noreply.github.com>
+Date:   Wed Mar 23 12:58:40 2022 +0100
+
+    Delete github_actions.png
+
+[33mcommit f129ba754f4684a1d391ff61ebc72e351d2dff7a[m
+Author: Zinath09 <75094119+Zinath09@users.noreply.github.com>
+Date:   Wed Mar 23 12:55:00 2022 +0100
+
+    Update pom.xml
+
+[33mcommit ed7346bba5ed7de8780964b5596dc725738e9eb8[m
+Author: Zinath09 <75094119+Zinath09@users.noreply.github.com>
+Date:   Wed Mar 23 12:54:10 2022 +0100
+
+    Update build.xml
+
+[33mcommit c5d8c81c4913f17640d9be41a9e2a0a069c3c084[m
+Author: Zinath09 <75094119+Zinath09@users.noreply.github.com>
+Date:   Mon Mar 21 14:38:42 2022 +0100
+
+    Update README.md
+
+[33mcommit 50edbb4f57fdbcbfd0d16b0a04e891b1bda6f4bd[m
+Author: Zinath09 <75094119+Zinath09@users.noreply.github.com>
+Date:   Mon Mar 21 14:26:55 2022 +0100
+
+    Added line for task1.
+
+[33mcommit 3649c2707047e0cb29d0142a8a13808a08d78624[m
+Author: Zinath09 <zuzabu@o2.pl>
+Date:   Mon Mar 21 14:05:49 2022 +0100
+
+    renaming CI -> 03-CI
+
+[33mcommit fd43d24c67c243b7d964c18627b3c49862e701b3[m
+Author: Zinath09 <zuzabu@o2.pl>
+Date:   Mon Mar 21 14:00:37 2022 +0100
+
+    Removed folder (real)  Maven from CI repository
+
+[33mcommit 8d5237c4b95a6b8b3b8f561fee511e6671751ac3[m
+Author: Zinath09 <zuzabu@o2.pl>
+Date:   Mon Mar 21 13:59:21 2022 +0100
+
+    Removed folder Maven from CI repository
+
+[33mcommit 23796e6a3502e3d85dcebaf24512dedc051e4d12[m
+Author: Zinath09 <75094119+Zinath09@users.noreply.github.com>
+Date:   Mon Mar 21 12:31:46 2022 +0100
+
+    Uploading files:Zuzanna Buchnajzer 148280 Zinath09
+
+[33mcommit b403fd13c5f55aeb81fe7117aa78b370225bf6cb[m
+Author: Zinath09 <75094119+Zinath09@users.noreply.github.com>
+Date:   Tue Mar 15 17:42:11 2022 +0100
+
+    Add files via upload
+
+[33mcommit 742fccb7fbf67cf1bacdb5d5b45d84e9f0aa4d4d[m
+Author: Zinath09 <75094119+Zinath09@users.noreply.github.com>
+Date:   Tue Mar 15 17:36:12 2022 +0100
+
+    Add files via upload
+
+[33mcommit 770801d0d1b257f1a718a09dd68b86eec0143158[m
+Author: Zinath09 <75094119+Zinath09@users.noreply.github.com>
+Date:   Mon Mar 14 13:42:02 2022 +0100
+
+    Update README.md
+
+[33mcommit a48e6a52c161b98b194b60c83cc8c69872ff926b[m
+Author: Zinath09 <75094119+Zinath09@users.noreply.github.com>
+Date:   Mon Mar 14 13:40:58 2022 +0100
+
+    Initial commit
