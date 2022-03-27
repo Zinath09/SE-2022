@@ -9,3 +9,5 @@ Additional line for task1.
 Another change for task3.
 --change 3 for task 6.
 Second change for task3.
+
+The last change.
